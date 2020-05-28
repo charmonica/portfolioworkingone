@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Karla|Spectral|Spectral+SC&display=swap');
+
+/* Rules to specify fonts below:
+font-family: 'Spectral SC', serif;
+font-family: 'Spectral', serif;
+font-family: 'Karla', sans-serif;
+*/ 
+
+
+/* Structure */
+
+body {
+  margin: 0;
+  background-color: #e3e5e4;
+  width: 100%;
+}
+
+header {
+  height: 200px;
+  width: auto;
+  background-color: #fff;
+  background-image:url(images/green-plants.png);
+  background-size: auto;
+  align-content: center;
+}
+
+footer {
+  height: 90px;
+  background-color: #fff;
+  background-image:url(images/green-plants.png);
+  align-content: center;
+}
+
+/* Hopefully this is what you meant for using <section> rather than a <div>? */
+
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: auto;
+  max-width: 540px;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+}
+
+nav {
+  border: 1px hidden #000;
+  padding: 10px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+}
+
+/* Wrappers and Groups */
+
+.wrapper {
+    width: 100%;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item {
+    flex: 1;
+    margin: 10px;
+}
+
+.item-double {
+    flex: 2;
+    margin: 10px;
+}
+
+/* Logo */
+
+header h1 {
+  font-family: 'Spectral SC', serif;
+  color: #fff;
+  margin: 0px;
+  padding-top: 24px;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 2px 2px #000;
+}
+
+header h2 {
+  font-family: 'Spectral', serif;
+  color: #fff;
+  margin: 0px;
+  padding-top: 16px;
+  font-size: 22px;
+  text-align: center;
+  text-shadow: 2px 2px #000;
+}
+
+/* Type */
+
+h1, h2 {
+  color:#000;
+  font-family: 'Spectral', serif;
+  text-align: center;
+}
+
+h1 { font-size: 38px;}
+h2 { font-size: 22px;}
+h3 { color:#000;
+     font-family: 'Spectral', serif;
+     font-size: 18px;
+     text-align: center;
+}
+
+p, li {
+  font-family: 'Spectral', serif;
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+    line-height: 26px;
+}
+
+ul {
+  list-style-image: url(images/flower-graphic.png);
+}
+
+a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:link { color: #027768; }
+a:visited { color: #027768; }
+a:hover { color: #00baad; }
+a:active { color: #00baad; }
+
+header a:link { color:#fff; }
+header a:visited { color: #fff; }
+header a:hover {color: #00baad; }
+header a:active { color:#00baad; }
+
+footer p {
+  font-family: 'Spectral', serif;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px #000;
+}
+/* No links in footer, but maintained for possible future expansion */
+footer a:link { color: #027768; }
+footer a:visited { color: #027768; }
+footer a:hover { color: #00baad; }
+footer a:active { color: #00baad; }
+
+/* Elements */
+
+img, iframe {
+    border-radius: 8px;
+}
+
+iframe { border: 1px solid #000;
+         height: auto;
+         width: 100%; }
+
+hr { border: .5px solid #000;
+  width: 35%; }
+
+ul.plant li {list-style-image: url('images/plant-icon.png');}
+
+/* Spacer removed, replaced by padding */
