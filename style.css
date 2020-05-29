@@ -162,6 +162,35 @@ ul.plant li {
   list-style-image: url('images/plant-icon.png');
 }
 
+/* Fieldsets & Forms */
+fieldset {
+  border: 0;
+  font-family: 'Spectral SC', serif;
+}
+
+form button {
+  font-family: 'Spectral SC', serif;
+  border: 4px black;
+}
+
+form input {
+  font-family: 'Spectral', serif;
+}
+
+form label {
+  display: block;
+  padding: 15px;
+}
+
+form textarea {
+  width: 90%;
+  padding: 15px;
+}
+
+legend {
+  text-align: center;
+}
+
 /* Media Queries */
 
 @media all and (min-width: 1200px) {
