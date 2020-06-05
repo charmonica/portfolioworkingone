@@ -175,16 +175,17 @@ form button {
 
 form input {
   font-family: 'Spectral', serif;
+  display: block;
 }
 
 form label {
   display: block;
-  padding: 15px;
+  padding: 5px;
 }
 
 form textarea {
   width: 90%;
-  padding: 15px;
+  padding: 5px;
 }
 
 legend {
