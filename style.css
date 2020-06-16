@@ -10,21 +10,19 @@ font-family: 'Karla', sans-serif;
 /* Structure */
 
 body {
-  height: auto;
-  width: 100%;
   background-color: #e3e5e4;
 }
 
 header {
   height: 200px;
-  background-color: #fff;
+  background-color: #000;
   background-image:url(images/green-plants.png);
   align-content: center;
 }
 
 footer {
   height: 90px;
-  background-color: #fff;
+  background-color: #000;
   background-image:url(images/green-plants.png);
   align-content: center;
 }
@@ -121,8 +119,8 @@ a:hover {
   text-decoration: underline;
 }
 
-a:link { color: #027768; }
-a:visited { color: #027768; }
+a:link { color: #013731; }
+a:visited { color: #013731; }
 a:hover { color: #00baad; }
 a:active { color: #00baad; }
 
