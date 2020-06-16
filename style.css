@@ -10,7 +10,8 @@ font-family: 'Karla', sans-serif;
 /* Structure */
 
 body {
-  margin: 0;
+  height: auto;
+  width: 100%;
   background-color: #e3e5e4;
 }
 
